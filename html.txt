@@ -1,0 +1,2 @@
+JavaScript Def--
+it is a object based and object oriented programming language use to convert static page into dynamic page

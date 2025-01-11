@@ -1,0 +1,182 @@
+DAY 2
+
+--Operator--
+it is a predefine symbol used to perform specific operation
+
+--> + , - , * , / , % , ++ ,
+
+increment
+
+--> post-increment(after)
+    first value will be assigned
+    then increments
+    
+   e.g:-
+      let a = 10;
+      console.log(a)//10
+      console.log(a++) //10
+      console.log(a++) //11
+
+--> pre-increment(before)
+    first increments will be done
+    then value will be assigned
+
+   e.g:-
+     let b = 10;
+     console.log(++b); //10
+     console.log(++b); //11
+
+2) Assignment operator
+--> = , += , -= , *= , /= , %=
+
+e.g:- let c = 10;
+      console.log(c) //10
+      console.log(c = c + 10) //20
+      console.log(c += 10) //20
+
+3) Relation operation
+--> < , > , <= , <= , == , === ,!=
+
+what is the difference between == & ===
+ 
+== when you want to compare only value 
+=== when you want to compare both value and datatype
+
+console.log(10 == 10) //true
+console.log(10 == "10") //true
+console.log(10 === 10) //true
+console.log(10 === "10") //False
+
+4)Logical operator
+
+AND(&&)
+OR(||)
+NOT(!)
+
+5)ternary operator
+--> will accept three operands
+syntax:-
+(condition) : true-statement : false-statement
+
+e.g:- 
+   (5 <=10 ): console.log("hello") : console.log("bye")
+
+
+CONDITINAL STATEMENTS
+--------------------------
+they are used to make some decision based on condition
+
+simple-if
+if-else
+else-if-else(else-if-ladder)
+nested-if
+switch
+
+
+Simple-if
+-->it have only true statement
+
+e.g:- 
+if(5<=10)
+{
+ console.log("hello")
+}
+
+
+if-else
+-->it will print true and false statement based on condition
+
+let n = 5;
+if(n<=10)
+{
+     console.log("smallest")
+}else{
+     console.log("largest")
+}
+
+
+
+else-if-else(else-if-ladder)
+-->
+let m = 100;
+let n = 200;
+let o = 300;
+
+if(m>=n && n>=o)
+{
+     console.log("m is greatest")
+}else if(n >= m && n >= o)
+{
+     console.log("n is greatest")
+}else{
+     console.log("o is greatest")
+
+
+
+nested-if
+-->
+
+let user = "admin"
+let password = "1234"
+
+if(user === "admin")
+{
+   console.log("admin is valid")
+   if(password === "1234")
+   {
+      console.log("password is valid")
+      console.log("login-successfull")
+   }else{
+      console.log("Password is invalid")
+   }
+}else{
+   console.log("login-unsuccessfull")
+}
+
+
+
+Switch
+
+let n = 100
+switch(n)
+{
+case 1:{
+       console.log("print 1")
+}
+break;
+case 2:{
+       console.log("print 2")
+}
+break;
+default:{
+       console.log("invalid")
+}
+
+
+
+looping statement
+-----------------------------------
+used to execute/iterator set of instruction based on condition
+
+for-loop
+while-loop
+do-while-loop
+for-each-loop
+
+
+for-loop
+--->
+
+
+
+     
+
+     
+
+
+
+
+
+
+
+    

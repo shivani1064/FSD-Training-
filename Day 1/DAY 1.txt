@@ -1,0 +1,38 @@
+DAY 1
+
+JavaScript Def--
+it is a object based and object oriented programming language use to convert static page into dynamic page
+  
+--Variables--
+Storing the values or Data
+Consider as a dynamic in nature
+              ->we don't have to mention data type
+e.g:- var a = 10;
+
+scopes
+->global
+->local/script
+->block {
+}
+
+3-types variables 
+--priority (3,2,1)
+->var everything is possible
+->let redicleration and reinsalation is not possible where as reinsalation is possible
+->const redicleration and reinsalation is not possible
+
+--Data types--
+primitive data types
+->Number
+->String
+->Boolean
+->Undefine
+->Null
+->BigInt
+Non Primitive Datatypes
+->Class
+->Object
+->Functions
+->array
+->Map
+->Sets

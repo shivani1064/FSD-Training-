@@ -1,0 +1,22 @@
+Day 4.txt
+=========
+Arrow Functions:
+----------------
+->It was introduced in ES 6 version --2015.
+->used to introduce number of lines in a code.
+
+1.Implict return arrow function
+-->No need to using return keyword
+
+let a = () => console.log("hello");
+console.log(a);
+a()
+
+2.Explicit return arrow function
+-->return keyword is mandatory
+
+let b = () => { return "hello" }
+console.log(b);
+console.log(b());
+
+let c = () => { return "hello" }

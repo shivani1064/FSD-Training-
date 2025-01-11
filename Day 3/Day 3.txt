@@ -1,0 +1,113 @@
+Day 3
+
+---Function---
+
+Functions are first citizens in javascript
+in javascript functions are object
+
+--Types of Functions--
+1)Function decleration statement (or) named function (or) pure function
+2)Function Expression
+3)function programming
+---> higher order and call back function
+4)Arrow Function
+5)Nested Function
+6)IIFE(immediate in working function expression)
+
+
+
+--Function decleration statement----
+
+--->it is a set of instruction or block of code used to perform a specific task
+
+syntax-->
+
+
+function(keyword) fun-name(identifiers)(parameters,.....)
+{
+ set-of-instruction
+}
+fun-name(argument,....)data/value(datatype)
+
+use of return-keyword
+will stop the execution of the function
+
+Hoisting:-
+calling function before function decleration
+
+-------function expressions---------
+
+Assigning function as an value to 1 variable
+it is used to perform specific task
+
+let a = 10;
+console.log(a);
+
+
+function()
+{
+console.log("hello")
+}
+
+hoisting is not possible in function expression
+demo()//reference error
+let demo = function()
+        {
+         console.log(demo)
+        }
+console.log(demo)
+demo()
+
+
+
+--------function programming---------
+Higher order function and call back function 
+it is used to perform generic task
+a function programing can be created using function decleration statement and function expression a function programming and arrow function
+
+---> Higher order function
+   A function which accept another function as a argument is called higher order function
+--->call back function
+   A function which is passed as a argument to higher order function is called call back function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
