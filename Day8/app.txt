@@ -1,0 +1,7 @@
+Asynchronous 
+
+-->making a way for other function to execute 
+
+promise
+
+--> it is an object 

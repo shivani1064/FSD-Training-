@@ -1,0 +1,10 @@
+Day 7
+
+-----Array------
+Array is used to store data of different data-type
+
+
+--object in javascript---
+
+
+--constuructor function---
