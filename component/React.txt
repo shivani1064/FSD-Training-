@@ -1,0 +1,48 @@
+Props in react
+  --------------
+  --->prop stands for properties.
+  ---->used to send data from one to another component
+  ----->props are uni-direction.
+  ----->props are immutable(read-only)
+
+  ways of creating elements
+  -------
+  html<H1>HELLOWORLD</H1>
+  Dom in js
+  ---------
+  let h1=document.createElement("h1")
+  console.log(h1)
+  h1.textContent="hello"
+       
+
+  React
+  ------
+  two-way
+  ------
+  1)React.createElement("tag-name","id/class or null","content/children")
+  eg:React.createElement("h1","null","hello")
+  React.createElement("div",{id:"demo},React.createElement("span","null","iam span tag"))
+
+  2)JSX(java script xml)
+  ---------------------
+  ->it is used to create html in react
+  ->it is neither HTML nor string
+
+  rules:
+  1)all ements should be enclosed
+  eg:-<h1></h1>
+      <cbc/>
+  2) ih there is more than one element it should wrapped inside parent element or fragment
+  eg:-
+  <div>
+  <h1>hello</h1>
+  <h1>hello</h1>
+  </div>
+
+  <>   ---> fragment 16.8 used to save memory in virtual dom.
+  <h1>hello</h1>
+  <h1>hello</h1>
+  </>
+
+  3)use {} for expression.
+  eg:-<h1>{5+5}</h1>
